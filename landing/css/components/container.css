@@ -1,0 +1,29 @@
+.container {
+  margin: 50px 100px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.container .cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .card {
+  width: 200px;
+  height: auto;
+  text-align: center;
+  border: 6px dotted #B5743A;
+  background-color: #f3ede0;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  padding: 10px;
+}
